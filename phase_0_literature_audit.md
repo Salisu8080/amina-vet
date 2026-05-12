@@ -1,6 +1,6 @@
 ﻿# Phase 0 — Literature Audit & Citation Verification
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete
 **Must be completed before:** All other phases
 
 ---

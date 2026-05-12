@@ -1,6 +1,6 @@
 ﻿# Phase 9 — Final Assembly, Formatting and Proofreading
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Phase9_Assembly_Guide.md` + `docs/Abstract.md`
 **Depends on:** All phases complete (0–8)
 
 ---

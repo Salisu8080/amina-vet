@@ -1,6 +1,6 @@
 ﻿# Phase 2 — Chapter 1: Introduction
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Chapter1_Introduction.md`
 **Depends on:** Phase 0 (all citations verified), Phase 1 (Word setup)
 **Target Word Count:** 4,000–5,000 words
 **Source:** Proposal.docx Section 1.0 — use as CONTENT GUIDE ONLY. Rewrite every section; replace ALL citations with verified ones from `Literatures/`.

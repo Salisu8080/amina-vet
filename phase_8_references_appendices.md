@@ -1,6 +1,6 @@
 ﻿# Phase 8 — References and Appendices
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/References_Appendices.md`
 **Depends on:** All chapters complete (Phases 2–7)
 
 ---

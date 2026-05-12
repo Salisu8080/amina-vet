@@ -1,6 +1,6 @@
 ﻿# Phase 6 — Chapter 5: Discussion
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Chapter5_Discussion.md`
 **Depends on:** Phase 0 (full literature library), Phase 5 (Chapter 4 complete)
 **Target Word Count:** 5,000–6,000 words
 

@@ -1,6 +1,6 @@
 # Phase 5 — Chapter 4: Results
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Chapter4_Results.md`
 **Depends on:** Phase 4 complete AND pre-writing statistical tasks below
 **Target Word Count:** 3,000–4,000 words + 5 tables + 2–3 plates
 

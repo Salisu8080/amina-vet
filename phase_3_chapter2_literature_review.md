@@ -1,6 +1,6 @@
 ﻿# Phase 3 — Chapter 2: Review of Related Literature
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Chapter2_Literature_Review.md`
 **Depends on:** Phase 0 (full literature library established)
 **Target Word Count:** 8,000–10,000 words
 

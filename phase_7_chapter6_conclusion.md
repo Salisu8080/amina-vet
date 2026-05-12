@@ -1,6 +1,6 @@
 ﻿# Phase 7 — Chapter 6: Summary, Conclusion and Recommendations
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Chapter6_Conclusion.md`
 **Depends on:** Phases 5 and 6 (Chapters 4 and 5 complete)
 **Target Word Count:** 2,000–2,500 words
 

@@ -1,6 +1,6 @@
 ﻿# Phase 4 — Chapter 3: Materials and Methods
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Chapter3_Methodology.md`
 **Depends on:** Phase 0
 **Target Word Count:** 4,000–5,000 words
 

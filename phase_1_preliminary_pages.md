@@ -1,6 +1,6 @@
 ﻿# Phase 1 — Preliminary Pages
 **MSc Dissertation | Balarabe, Amina Abdullahi | ABU Zaria**
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete — output: `docs/Preliminary_Pages.md`
 **Depends on:** Phase 0 (Literature Audit)
 **Note:** Abstract and TOC must be written/generated LAST — after all chapters are complete.
 

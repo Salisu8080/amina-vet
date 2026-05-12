@@ -22,3 +22,4 @@ Thumbs.db
 Literatures/
 Literature_Inventory.csv
 discarded_citations.txt
+docs/*.pdf
