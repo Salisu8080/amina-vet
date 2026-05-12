@@ -593,13 +593,35 @@ def build_acknowledgement(doc):
 
 def build_abstract(doc):
     add_heading2(doc, "ABSTRACT", spacing="single")
-    # Placeholder — written last after all chapters complete
     abstract_path = DOCS / "Abstract.md"
     if abstract_path.exists():
-        text = abstract_path.read_text(encoding="utf-8")
-        for para_text in text.split("\n\n"):
-            if para_text.strip():
-                add_rich_para(doc, para_text.strip(), spacing="single")
+        raw = abstract_path.read_text(encoding="utf-8")
+        # Extract only the body: lines that are not headings, metadata, dividers,
+        # keyword lines, or word-count notes.
+        body_lines = []
+        for line in raw.splitlines():
+            s = line.strip()
+            if not s:
+                continue
+            if s.startswith("#"):
+                continue
+            if s.startswith("**Title:") or s.startswith("**Student:"):
+                continue
+            if re.match(r"^---+$", s):
+                continue
+            if s.startswith("**Keywords:") or s.startswith("*(Word count"):
+                continue
+            body_lines.append(s)
+        body = " ".join(body_lines).strip()
+        if body:
+            add_rich_para(doc, body, spacing="single")
+        else:
+            add_rich_para(
+                doc,
+                "[ABSTRACT — TO BE WRITTEN. Maximum 500 words. "
+                "Write content in docs/Abstract.md then rebuild.]",
+                italic=True, spacing="single",
+            )
     else:
         add_rich_para(
             doc,
@@ -699,54 +721,64 @@ def build_list_of_abbreviations(doc):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# REFERENCES BUILDER
+# REFERENCES AND APPENDICES BUILDER
 # ══════════════════════════════════════════════════════════════════════════════
 
-def extract_refs_from_md(md_text):
-    parts = re.split(r"## References Cited", md_text, flags=re.IGNORECASE)
-    if len(parts) < 2:
-        return []
-    refs = []
-    for line in parts[1].splitlines():
-        line = line.strip()
-        if line.startswith("- ") and re.search(r"\(\d{4}\)", line):
-            refs.append(line[2:].strip())
-    return refs
+def build_references_and_appendices(doc):
+    ref_app_path = DOCS / "References_Appendices.md"
+    if not ref_app_path.exists():
+        add_heading1(doc, "REFERENCES", spacing="double")
+        add_rich_para(doc, "[References not yet compiled.]", italic=True)
+        return
 
+    text = ref_app_path.read_text(encoding="utf-8")
 
-def sort_key(ref):
-    clean = re.sub(r"\*+", "", ref).strip()
-    m = re.match(r"^([A-Za-zÀ-ÖØ-öø-ÿ\-]+)", clean)
-    return m.group(1).lower() if m else clean.lower()
+    # Split at ## APPENDICES boundary
+    parts = re.split(r"^## APPENDICES", text, flags=re.MULTILINE)
+    ref_section  = parts[0]
+    app_section  = parts[1] if len(parts) > 1 else ""
 
+    # Strip the ## REFERENCES heading and any preamble notes
+    ref_body_parts = re.split(r"^## REFERENCES", ref_section, flags=re.MULTILINE)
+    ref_body = ref_body_parts[1] if len(ref_body_parts) > 1 else ref_section
 
-def build_references(doc, chapter_files):
-    seen = {}
-    for fp in chapter_files:
-        if fp.exists():
-            text = fp.read_text(encoding="utf-8")
-            for ref in extract_refs_from_md(text):
-                norm = re.sub(r"\s+", " ", ref).strip()
-                key  = norm[:80].lower()
-                if key not in seen:
-                    seen[key] = norm
+    # Parse individual reference entries (blank-line separated paragraphs)
+    entries = []
+    current = []
+    for line in ref_body.splitlines():
+        s = line.strip()
+        if not s or s.startswith(">") or re.match(r"^---+$", s) or s.startswith("*("):
+            if current:
+                entries.append(" ".join(current))
+                current = []
+        else:
+            current.append(s)
+    if current:
+        entries.append(" ".join(current))
 
-    sorted_refs = sorted(seen.values(), key=sort_key)
-
+    # Render REFERENCES section
     add_heading1(doc, "REFERENCES", spacing="double")
-    for ref in sorted_refs:
-        p = doc.add_paragraph()
-        pf = p.paragraph_format
-        pf.alignment         = WD_ALIGN_PARAGRAPH.JUSTIFY
-        pf.left_indent       = Inches(0.5)
-        pf.first_line_indent = Inches(-0.5)
-        pf.space_before      = Pt(0)
-        pf.space_after       = Pt(6)
-        pf.line_spacing_rule = WD_LINE_SPACING.SINGLE
-        add_inline_text(p, ref)
-        for run in p.runs:
-            run.font.name = FONT_NAME
-            run.font.size = FONT_SIZE
+    for entry in entries:
+        if entry.strip():
+            p = doc.add_paragraph()
+            pf = p.paragraph_format
+            pf.alignment         = WD_ALIGN_PARAGRAPH.JUSTIFY
+            pf.left_indent       = Inches(0.5)
+            pf.first_line_indent = Inches(-0.5)
+            pf.space_before      = Pt(0)
+            pf.space_after       = Pt(6)
+            pf.line_spacing_rule = WD_LINE_SPACING.SINGLE
+            add_inline_text(p, entry)
+            for run in p.runs:
+                run.font.name = FONT_NAME
+                run.font.size = FONT_SIZE
+
+    # Render APPENDICES section
+    if app_section.strip():
+        doc.add_page_break()
+        add_heading1(doc, "APPENDICES", spacing="double")
+        clean = re.sub(r"^[\s\-]+", "", app_section, count=3)
+        render_markdown(doc, clean, default_spacing="single")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -804,7 +836,7 @@ def build():
     chapter_files = [
         DOCS / "Chapter1_Introduction.md",
         DOCS / "Chapter2_Literature_Review.md",
-        DOCS / "Chapter3_Materials_and_Methods.md",
+        DOCS / "Chapter3_Methodology.md",
         DOCS / "Chapter4_Results.md",
         DOCS / "Chapter5_Discussion.md",
         DOCS / "Chapter6_Conclusion.md",
@@ -813,16 +845,14 @@ def build():
     for fp in chapter_files:
         if fp.exists():
             text = fp.read_text(encoding="utf-8")
-            # Strip the References Cited section (goes to consolidated refs)
-            text = re.split(r"## References Cited", text)[0]
             render_markdown(doc, text, default_spacing="double")
             doc.add_page_break()
         else:
             add_heading1(doc, f"[{fp.stem} — NOT YET WRITTEN]")
             doc.add_page_break()
 
-    # ── Consolidated References ───────────────────────────────────────────────
-    build_references(doc, chapter_files)
+    # ── References and Appendices ─────────────────────────────────────────────
+    build_references_and_appendices(doc)
 
     # ── Save ─────────────────────────────────────────────────────────────────
     OUT.parent.mkdir(parents=True, exist_ok=True)
