@@ -1,4 +1,4 @@
-# PHASE 9 — FINAL ASSEMBLY GUIDE
+# PHASE 9: FINAL ASSEMBLY GUIDE
 **MSc Dissertation | Balarabe, Amina Abdullahi | P24VTVH8002 | ABU Zaria**
 
 ---
@@ -44,8 +44,8 @@ Open the file set up during Phase 1 with the correct margins and fonts.
 | Font | Times New Roman 12pt |
 | Left margin | 1.5 inches (binding) |
 | Top, Bottom, Right margins | 1 inch each |
-| Line spacing — chapters | Double (2.0) |
-| Line spacing — preliminary pages | Single (1.0) |
+| Line spacing: chapters | Double (2.0) |
+| Line spacing: preliminary pages | Single (1.0) |
 
 ### 2. Page numbering setup
 
@@ -61,7 +61,7 @@ In Word: use **Section Breaks** (Layout → Breaks → Next Page) between the pr
 ### 3. Insert chapters in this exact order
 
 ```
-[SECTION 1 — PRELIMINARY PAGES — Roman numerals]
+[SECTION 1: PRELIMINARY PAGES, Roman numerals]
   Cover Page                    (no page number)
   Fly Leaf                      (blank, no number)
   Title Page                    (page i)
@@ -75,7 +75,7 @@ In Word: use **Section Breaks** (Layout → Breaks → Next Page) between the pr
   List of Plates/Figures        (auto-generate in Word LAST)
   List of Abbreviations         (from Preliminary_Pages.md)
 
-[SECTION 2 — CHAPTERS — Arabic numerals, start at 1]
+[SECTION 2: CHAPTERS, Arabic numerals, start at 1]
   CHAPTER ONE: INTRODUCTION                 ← Chapter1_Introduction.md
   CHAPTER TWO: REVIEW OF RELATED LITERATURE ← Chapter2_Literature_Review.md
   CHAPTER THREE: MATERIALS AND METHODS      ← Chapter3_Methodology.md
@@ -94,13 +94,13 @@ In Word: use **Section Breaks** (Layout → Breaks → Next Page) between the pr
 | Section heading (e.g. 1.1) | Heading 2 | Title Case Bold, left-aligned |
 | Sub-section heading (e.g. 1.1.1) | Heading 3 | Sentence case, left-aligned |
 
-Apply these styles consistently — the TOC will only auto-generate correctly if all headings use the proper Word styles.
+Apply these styles consistently; the TOC will only auto-generate correctly if all headings use the proper Word styles.
 
 ### 5. Tables and figures
 
 - All tables: title **above** the table (e.g., *Table 4.1: Distribution of E. coli isolates…*)
 - All plates/figures: caption **below** the image (e.g., *Plate 4.1: EMB agar colonies showing metallic green sheen…*)
-- Ensure tables span correctly across columns — do not allow tables to break across pages where it can be avoided
+- Ensure tables span correctly across columns; do not allow tables to break across pages where it can be avoided
 - Check all table numbers follow the chapter-prefixed format: Table 3.1, Table 3.2, Table 4.1 … Table 4.5
 
 ---
@@ -142,21 +142,21 @@ Work through the assembled document top to bottom with this checklist:
 - [ ] Numbers are at bottom centre throughout
 
 ### Tables
-- [ ] Table 3.1 — Sampling frame (8 locations, 152 samples)
-- [ ] Table 3.2 — Primer sequences (6 rows: 3 genes × 2 primers each)
-- [ ] Table 3.3 — Antibiotic disk panel (10 antibiotics)
-- [ ] Table 4.1 — E. coli distribution by location (total = 37/152)
-- [ ] Table 4.2 — AST profile (10 rows; MEM 100% susceptible; AZM 100% resistant)
-- [ ] Table 4.3 — 10 resistance patterns (total = 37 isolates)
-- [ ] Table 4.4 — MAR index distribution (all 37 > 0.2)
-- [ ] Table 4.5 — Integron by location (Class I: 36/37; Class II: 28/37)
+- [ ] Table 3.1: Sampling frame (8 locations, 152 samples)
+- [ ] Table 3.2: Primer sequences (6 rows: 3 genes × 2 primers each)
+- [ ] Table 3.3: Antibiotic disk panel (10 antibiotics)
+- [ ] Table 4.1: E. coli distribution by location (total = 37/152)
+- [ ] Table 4.2: AST profile (10 rows; MEM 100% susceptible; AZM 100% resistant)
+- [ ] Table 4.3: 10 resistance patterns (total = 37 isolates)
+- [ ] Table 4.4: MAR index distribution (all 37 > 0.2)
+- [ ] Table 4.5: Integron by location (Class I: 36/37; Class II: 28/37)
 - [ ] All table titles are above the table
 
 ### Plates/Figures
-- [ ] Plate 4.1 — EMB agar image (gel image file inserted)
-- [ ] Plate 4.2 — 16S rRNA PCR gel (1,500 bp band visible)
-- [ ] Plate 4.3 — Integron PCR gel (1,100 bp + 233 bp bands visible)
-- [ ] Figure 3.1 — Map of Zaria with 8 sampling locations
+- [ ] Plate 4.1: EMB agar image (gel image file inserted)
+- [ ] Plate 4.2: 16S rRNA PCR gel (1,500 bp band visible)
+- [ ] Plate 4.3: Integron PCR gel (1,100 bp + 233 bp bands visible)
+- [ ] Figure 3.1: Map of Zaria with 8 sampling locations
 - [ ] All plate captions are below the image
 
 ---
@@ -176,13 +176,13 @@ Work through the assembled document top to bottom with this checklist:
 - [ ] Chapter 5 (Discussion): own findings = past tense; scientific knowledge = present tense
 - [ ] Chapter 6 conclusions: past tense; recommendations = present/future tense
 
-### Critical Numbers — Verify These Exactly
+### Critical Numbers: Verify These Exactly
 - [ ] Total samples: **152**
 - [ ] EMB positive: **88 (57.89%)**
 - [ ] Confirmed E. coli: **37 (24.34%)**
 - [ ] MDR isolates: **37 (100%)**
 - [ ] Resistance patterns: **10**
-- [ ] Dominant pattern: **CRO, TE, CN, SXT, C, AZM, CIP, NA — 19 isolates (51.35%)**
+- [ ] Dominant pattern: **CRO, TE, CN, SXT, C, AZM, CIP, NA, 19 isolates (51.35%)**
 - [ ] Meropenem susceptibility: **100%**
 - [ ] Azithromycin resistance: **100%**
 - [ ] Class I integrons: **36/37 (97.2%)**
@@ -192,14 +192,14 @@ Work through the assembled document top to bottom with this checklist:
 - [ ] Chi-square Test 3 (Class II): χ² = **12.718**, df = **7**, P = **0.079**
 
 ### Carbapenemase Rule
-- [ ] Carbapenemase genes are mentioned as background/context only in Chapter 1 — NOT listed as a study objective or result anywhere
+- [ ] Carbapenemase genes are mentioned as background/context only in Chapter 1, NOT listed as a study objective or result anywhere
 
 ### Academic Style
 - [ ] *Escherichia coli* italicized at first mention in each section; *E. coli* thereafter
 - [ ] *intI1*, *intI2*, *dfrA*, *aadA*, *sul1* all italicized
 - [ ] *Salmonella*, *Klebsiella*, etc. italicized
 - [ ] No abbreviations used before they are defined in full
-- [ ] No first-person language ("I", "we", "our") — third-person academic register throughout
+- [ ] No first-person language ("I", "we", "our"), third-person academic register throughout
 
 ### Structural Checks
 - [ ] All 3 objectives in Section 1.5 exactly match the completed lab work
@@ -216,7 +216,7 @@ Work through the assembled document top to bottom with this checklist:
 2. File → Export → Create PDF/XPS (or Save As → PDF)
 3. Save PDF as: **`Amina_Dissertation_FINAL.pdf`**
 
-**PDF review — check page by page:**
+**PDF review: check page by page:**
 - [ ] Tables render without overflow or text truncation
 - [ ] Gel images are clear and print-quality (≥300 dpi)
 - [ ] Page breaks fall correctly between chapters
@@ -232,10 +232,10 @@ Work through the assembled document top to bottom with this checklist:
 |----------|-------|-------------|
 | PDFs in `Literatures/` folder | 100 | Total collection from Phase 0 |
 | Papers with verified APA in index | ~38 | Papers Phase 0 fully processed |
-| Papers with `"Unknown"` author / no APA | ~62 | Not citeable — metadata not extracted |
+| Papers with `"Unknown"` author / no APA | ~62 | Not citeable, metadata not extracted |
 | Papers actually cited in Chapters 1–6 | **40** | Includes 35 verified + 5 standard references |
 
-**If supervisors require more references (target: 60+):** The solution is to extract metadata from the ~62 unprocessed PDFs in `Literatures/` and incorporate the most relevant ones into the appropriate chapters. This can be done as a supplementary task — type "extract more references" and I will process the remaining PDFs.
+**If supervisors require more references (target: 60+):** The solution is to extract metadata from the ~62 unprocessed PDFs in `Literatures/` and incorporate the most relevant ones into the appropriate chapters. This can be done as a supplementary task: type "extract more references" and I will process the remaining PDFs.
 
 ---
 

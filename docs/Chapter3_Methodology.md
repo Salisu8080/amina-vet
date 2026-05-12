@@ -2,10 +2,10 @@
 
 ## MATERIALS AND METHODS
 
-> **Tense note:** This entire chapter is written in the past tense — all laboratory work has been completed.
+> **Tense note:** This entire chapter is written in the past tense, all laboratory work has been completed.
 >
 > **Citation note:** The following references are standard methodology standards/textbooks not stored as PDFs in `Literatures/` but are essential and universally expected in this chapter. Confirm APA details before final submission:
-> - CLSI (2024) — Clinical Laboratory Standards Institute performance standards (standards document)
+> - CLSI (2024): Clinical Laboratory Standards Institute performance standards (standards document)
 > - Thrusfield, M. (2007). *Veterinary Epidemiology* (3rd ed.). Blackwell Science. (textbook)
 > - Cheesbrough, M. (2006). *District Laboratory Practice in Tropical Countries* (2nd ed.). Cambridge University Press. (lab manual)
 > - Lane, D. J. (1991). 16S/23S rRNA sequencing. In E. Stackebrandt & M. Goodfellow (Eds.), *Nucleic Acid Techniques in Bacterial Systematics* (pp. 115–175). Wiley. (book chapter)
@@ -16,7 +16,7 @@
 
 The study was conducted in Zaria Metropolis, located in the northern part of Kaduna State, North-West Nigeria, at approximately latitude 11°04′N and longitude 7°42′E. Zaria Metropolis is administered under two Local Government Areas: Zaria Local Government Area and Sabon Gari Local Government Area, and comprises eight traditional districts. The estimated population of Zaria Metropolis at the time of the study exceeded 400,000 residents, making it one of the largest urban centres in Kaduna State and a significant commercial hub in North-West Nigeria.
 
-The metropolis falls within the Northern Guinea Savannah ecological zone and is characterized by a tropical continental climate with two clearly distinct seasons: a rainy season spanning approximately May to October, with annual rainfall ranging from 1,000 to 1,200 millimetres, and a dry harmattan season from November to April. Daily temperatures fluctuate between approximately 14°C during cooler harmattan periods and 34°C at peak dry-season temperatures. The vegetation is typical of the Guinea Savannah — open woodland interspersed with grassland and farmland.
+The metropolis falls within the Northern Guinea Savannah ecological zone and is characterized by a tropical continental climate with two clearly distinct seasons: a rainy season spanning approximately May to October, with annual rainfall ranging from 1,000 to 1,200 millimetres, and a dry harmattan season from November to April. Daily temperatures fluctuate between approximately 14°C during cooler harmattan periods and 34°C at peak dry-season temperatures. The vegetation is typical of the Guinea Savannah, open woodland interspersed with grassland and farmland.
 
 Poultry farming constitutes one of the dominant agricultural enterprises in Zaria Metropolis and its surrounding peri-urban areas, ranging from small-scale household layer and broiler operations to large-scale intensive commercial farms supplying poultry meat and eggs to the urban market. The growth of the commercial poultry sector has generated correspondingly large volumes of poultry manure, which is widely traded as an organic fertilizer through informal vendor markets operating across the metropolis. These vendor markets represent important nodes in the urban agricultural supply chain, supplying manure directly to smallholder urban farmers, household vegetable gardeners, and fish farmers. Eight such vendor locations distributed across Zaria and Sabon Gari LGAs were identified and included in this study based on their established commercial activity and accessibility (Figure 3.1).
 
@@ -26,7 +26,7 @@ Poultry farming constitutes one of the dominant agricultural enterprises in Zari
 
 ### 3.2 Study Design
 
-A cross-sectional study was conducted to determine the prevalence of multidrug-resistant *Escherichia coli* bearing Class I and Class II integrons in commercial poultry manure obtained from vendors in Zaria Metropolis. The cross-sectional design was selected because it is appropriate for estimating the prevalence of AMR at a defined point in time, is cost-effective, and provides a representative snapshot of the AMR burden in vendor-sourced poultry litter in the study area. Poultry manure samples were collected from eight designated vendor locations across Zaria and Sabon Gari Local Government Areas during [month(s), year — confirm collection period before final submission].
+A cross-sectional study was conducted to determine the prevalence of multidrug-resistant *Escherichia coli* bearing Class I and Class II integrons in commercial poultry manure obtained from vendors in Zaria Metropolis. The cross-sectional design was selected because it is appropriate for estimating the prevalence of AMR at a defined point in time, is cost-effective, and provides a representative snapshot of the AMR burden in vendor-sourced poultry litter in the study area. Poultry manure samples were collected from eight designated vendor locations across Zaria and Sabon Gari Local Government Areas during [month(s), year, confirm collection period before final submission].
 
 ---
 
@@ -75,7 +75,7 @@ The eight vendor locations included in the study were identified through prelimi
 
 #### 3.5.1 Sampling Technique
 
-A convenience sampling technique was employed for vendor selection. Vendors who were accessible, willing to participate, and whose stock met the inclusion criteria were recruited at each designated location. Within each vendor's litter supply, a pooled composite sample was obtained by collecting sub-samples from multiple points — top, middle, and base of the heap — using a sterile spoon, which were then pooled into a single representative sample per vendor.
+A convenience sampling technique was employed for vendor selection. Vendors who were accessible, willing to participate, and whose stock met the inclusion criteria were recruited at each designated location. Within each vendor's litter supply, a pooled composite sample was obtained by collecting sub-samples from multiple points, top, middle, and base of the heap, using a sterile spoon, which were then pooled into a single representative sample per vendor.
 
 #### 3.5.2 Inclusion Criteria
 
@@ -83,7 +83,7 @@ The following criteria were applied for the inclusion of samples:
 
 1. The vendor's location was within the designated study area (Zaria or Sabon Gari Local Government Area).
 2. The litter was clearly of poultry (chicken/broiler/layer) origin, as confirmed by the vendor.
-3. The litter was fresh — not sun-dried, composted, or treated with any chemical or biological agent prior to collection.
+3. The litter was fresh, not sun-dried, composted, or treated with any chemical or biological agent prior to collection.
 4. The vendor's stock was intended for sale as organic fertilizer or soil amendment.
 
 #### 3.5.3 Exclusion Criteria
@@ -114,7 +114,7 @@ Selective isolation of *E. coli* was performed by streaking a loopful of the sec
 
 All presumptive *E. coli* colonies obtained from EMB agar were subjected to Gram staining and a panel of standard biochemical tests to confirm their identity. Gram staining was performed according to the standard protocol, and colonies yielding Gram-negative rods were subjected to the following confirmatory tests: Triple Sugar Iron (TSI) agar; Simmons Citrate agar; Urease agar (Christensen's); Sulfate-Indole-Motility (SIM) medium; and Methyl Red–Voges Proskauer (MR-VP) broth. All media were inoculated from pure TSA cultures using standard inoculation techniques and incubated at 37°C for 18–24 hours. Results were interpreted according to the standard biochemical reaction profiles described by Cheesbrough (2006).
 
-Isolates were identified as *E. coli* based on the following characteristic biochemical profile: TSI — acid/acid with gas production and no hydrogen sulphide; Simmons Citrate — no growth (citrate negative); Urease — no colour change (urease negative); SIM — indole positive, motile, H₂S negative; MR — positive (methyl red positive); VP — negative (Voges-Proskauer negative). Colonies yielding this profile were tentatively identified as *E. coli* and stored on nutrient agar slants at 4°C pending molecular confirmation.
+Isolates were identified as *E. coli* based on the following characteristic biochemical profile: TSI, acid/acid with gas production and no hydrogen sulphide; Simmons Citrate, no growth (citrate negative); Urease, no colour change (urease negative); SIM, indole positive, motile, H₂S negative; MR, positive (methyl red positive); VP, negative (Voges-Proskauer negative). Colonies yielding this profile were tentatively identified as *E. coli* and stored on nutrient agar slants at 4°C pending molecular confirmation.
 
 #### 3.7.3 DNA Extraction
 
@@ -194,25 +194,25 @@ PCR product samples (5 µL) were mixed with 2 µL of 6× loading dye and loaded 
 
 Data were entered and managed in Microsoft Excel 2019 (Microsoft Corporation, USA) and analyzed using Python 3.11 (Python Software Foundation) with the SciPy scientific computing library (Virtanen et al., 2020; `scipy.stats` module). All results were expressed as frequencies and proportions (percentages). The prevalence of *E. coli*, the proportion of MDR isolates, and the prevalence of Class I and Class II integrons were calculated as the number of positive isolates divided by the total number of samples tested, expressed as a percentage.
 
-The chi-square (χ²) test of independence was used to assess associations between categorical variables — specifically between vendor location and *E. coli* prevalence, between vendor location and Class I integron carriage, and between vendor location and Class II integron carriage. Where expected cell frequencies were less than five in any cell of a contingency table, Fisher's Exact Test was applied in place of the chi-square test to avoid inflated Type I error. The threshold for statistical significance was set at *P* < 0.05 (two-tailed) for all tests. All statistical analyses were conducted and verified using Python SciPy; results are presented in Chapter 4.
+The chi-square (χ²) test of independence was used to assess associations between categorical variables, specifically between vendor location and *E. coli* prevalence, between vendor location and Class I integron carriage, and between vendor location and Class II integron carriage. Where expected cell frequencies were less than five in any cell of a contingency table, Fisher's Exact Test was applied in place of the chi-square test to avoid inflated Type I error. The threshold for statistical significance was set at *P* < 0.05 (two-tailed) for all tests. All statistical analyses were conducted and verified using Python SciPy; results are presented in Chapter 4.
 
 ---
 
 ### References for Chapter 3
 
-*(Full reference list in Chapter 8 — References and Appendices)*
+*(Full reference list in Chapter 8: References and Appendices)*
 
 **In-text citations used in this chapter:**
 
-- Cheesbrough (2006) ⚑ — standard laboratory manual [not in Literatures/ — confirm APA before submission]
-- CLSI (2024) ⚑ — standards document [not in Literatures/ — confirm APA before submission]
-- Ejeh et al. (2017) — `Ejeh2017.pdf`
-- Fonseca et al. (2005) — `Fonseca2005_intgr.pdf`
-- Goldstein et al. (2001) — `Goldstein2001.pdf`
-- Lane (1991) ⚑ — primer reference [not in Literatures/ — confirm APA before submission]
-- Lévesque et al. (1995) — `Levesque1995_intgr.pdf`
-- Roe & Pillai (2003) — `Roe2003.pdf`
-- Thrusfield (2007) ⚑ — sample size textbook [not in Literatures/ — confirm APA before submission]
-- Virtanen et al. (2020) ⚑ — SciPy library reference [not in Literatures/ — confirm APA before submission]
+- Cheesbrough (2006) ⚑: standard laboratory manual [not in Literatures/, confirm APA before submission]
+- CLSI (2024) ⚑: standards document [not in Literatures/, confirm APA before submission]
+- Ejeh et al. (2017): `Ejeh2017.pdf`
+- Fonseca et al. (2005): `Fonseca2005_intgr.pdf`
+- Goldstein et al. (2001): `Goldstein2001.pdf`
+- Lane (1991) ⚑: primer reference [not in Literatures/, confirm APA before submission]
+- Lévesque et al. (1995): `Levesque1995_intgr.pdf`
+- Roe & Pillai (2003): `Roe2003.pdf`
+- Thrusfield (2007) ⚑: sample size textbook [not in Literatures/, confirm APA before submission]
+- Virtanen et al. (2020) ⚑: SciPy library reference [not in Literatures/, confirm APA before submission]
 
 > ⚑ = Essential methodology standard or textbook; not a peer-reviewed PDF in `Literatures/`. Standard APA citations are provided in the References chapter. Amina or supervisors should confirm the correct edition and page details before final submission.

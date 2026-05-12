@@ -8,11 +8,11 @@
 
 ---
 
-## Page 1 — Cover Page
+## Page 1: Cover Page
 
 *(Centred, ALL UPPER CASE, no page number)*
 
-[AHMADU BELLO UNIVERSITY LOGO — CENTRED]
+[AHMADU BELLO UNIVERSITY LOGO, CENTRED]
 
 &nbsp;
 
@@ -38,13 +38,13 @@
 
 ---
 
-## Page 2 — Fly Leaf (blank)
+## Page 2: Fly Leaf (blank)
 
 *(Intentionally blank)*
 
 ---
 
-## Page 3 — Title Page *(page i)*
+## Page 3: Title Page *(page i)*
 
 **PREVALENCE OF MULTIDRUG-RESISTANT ESCHERICHIA COLI BEARING CLASS I AND CLASS II INTEGRONS IN POULTRY MANURE FROM VENDORS IN ZARIA METROPOLIS**
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Page 4 — Declaration
+## Page 4: Declaration
 
 I declare that the work in this Dissertation entitled "PREVALENCE OF MULTIDRUG-RESISTANT ESCHERICHIA COLI BEARING CLASS I AND CLASS II INTEGRONS IN POULTRY MANURE FROM VENDORS IN ZARIA METROPOLIS" was carried out by me in the Department of Veterinary Public Health and Preventive Medicine. The information derived from the literature was duly acknowledged in the text and a list of references provided. No part of this Dissertation was previously presented for another degree or diploma at this or any other Institution.
 
@@ -73,7 +73,7 @@ I declare that the work in this Dissertation entitled "PREVALENCE OF MULTIDRUG-R
 
 ---
 
-## Page 5 — Certification
+## Page 5: Certification
 
 This Dissertation entitled "PREVALENCE OF MULTIDRUG-RESISTANT ESCHERICHIA COLI BEARING CLASS I AND CLASS II INTEGRONS IN POULTRY MANURE FROM VENDORS IN ZARIA METROPOLIS" by Balarabe, Amina Abdullahi meets the regulations governing the award of the degree of MASTER OF SCIENCE (MSc) IN VETERINARY PUBLIC HEALTH of the Ahmadu Bello University, and is approved for its contribution to knowledge and literary presentation.
 
@@ -81,13 +81,13 @@ This Dissertation entitled "PREVALENCE OF MULTIDRUG-RESISTANT ESCHERICHIA COLI B
 |------|------|-----------|------|
 | Chairman, Supervisory Committee | Prof. Junaidu Kabir | _____________ | _______ |
 | Member, Supervisory Committee | Dr. U.U. Bashir | _____________ | _______ |
-| Head of Department | [HoD Name — confirm with Dept] | _____________ | _______ |
+| Head of Department | [HoD Name, confirm with Dept] | _____________ | _______ |
 | Postgraduate Coordinator | [PG Coordinator Name] | _____________ | _______ |
 | Provost, Postgraduate College | Prof. O. O. Okubanjo | _____________ | _______ |
 
 ---
 
-## Page 6 — Dedication
+## Page 6: Dedication
 
 This work is dedicated to Almighty Allah, the Most Gracious and Most Merciful, and to my beloved family whose prayers, love, and unwavering support sustained me throughout this academic journey.
 
@@ -95,7 +95,7 @@ This work is dedicated to Almighty Allah, the Most Gracious and Most Merciful, a
 
 ---
 
-## Page 7 — Acknowledgement (~150–200 words)
+## Page 7: Acknowledgement (~150–200 words)
 
 All praises and thanks are due to Almighty Allah (Subhanahu wa Ta'ala), the Lord of the worlds, for granting me the knowledge, patience, and strength to complete this work.
 
@@ -109,23 +109,23 @@ Finally, my heartfelt thanks go to my family for their endless support, encourag
 
 ---
 
-## Page 8 — Abstract ← WRITE LAST (≤500 words)
+## Page 8: Abstract ← WRITE LAST (≤500 words)
 
-> **WRITE LAST — after all chapters are complete.**
+> **WRITE LAST: after all chapters are complete.**
 > Place final abstract text in `docs/Abstract.md` then run `build_docx.py`.
 
 **Keywords:** Escherichia coli, multidrug resistance, integrons, poultry manure, antimicrobial resistance, Zaria, Nigeria, Class I integron, Class II integron, MAR index, One Health, veterinary public health
 
 ---
 
-## Page 9 — Table of Contents ← AUTO-GENERATE LAST
+## Page 9: Table of Contents ← AUTO-GENERATE LAST
 
 *(Auto-generated in Word: References → Table of Contents → Automatic Table 1)*
 *(Generate AFTER all chapters are typed with Heading 1/2/3 styles)*
 
 ---
 
-## Page 10 — List of Tables
+## Page 10: List of Tables
 
 | Table | Title | Page |
 |-------|-------|------|
@@ -139,7 +139,7 @@ Finally, my heartfelt thanks go to my family for their endless support, encourag
 
 ---
 
-## Page 11 — List of Plates
+## Page 11: List of Plates
 
 | Plate | Description | Page |
 |-------|-------------|------|
@@ -149,7 +149,7 @@ Finally, my heartfelt thanks go to my family for their endless support, encourag
 
 ---
 
-## Page 12 — List of Abbreviations
+## Page 12: List of Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|

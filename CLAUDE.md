@@ -1,4 +1,4 @@
-# CLAUDE.md — MSc Dissertation Project
+# CLAUDE.md: MSc Dissertation Project
 
 ## Project Identity
 
@@ -20,9 +20,9 @@
 | **Target Organism** | *Escherichia coli* |
 | **Sample** | 152 poultry manure samples from commercial vendors |
 | **Isolation Medium** | EMB agar + biochemical confirmation + PCR (16S rRNA) |
-| **AMR Method** | Kirby-Bauer disk diffusion (CLSI 2024) — 10 antibiotics |
+| **AMR Method** | Kirby-Bauer disk diffusion (CLSI 2024): 10 antibiotics |
 | **MDR Measure** | MAR Index (ratio a/b; threshold >0.2) |
-| **Molecular Methods** | PCR — Class I integron (CSL1/CSR1; 1,100 bp); Class II integron (233 bp) |
+| **Molecular Methods** | PCR: Class I integron (CSL1/CSR1; 1,100 bp); Class II integron (233 bp) |
 | **Data Analysis** | Python (SciPy); descriptive statistics; chi-square / Fisher's exact (P<0.05) |
 | **Theoretical Base** | One Health framework (WHO/FAO/WOAH tripartite) |
 
@@ -43,7 +43,7 @@
 | Class I integrons | 36/37 (97.2%) |
 | Class II integrons | 28/37 (75.6%) |
 
-> **NOTE:** Carbapenemase genes (bla NDM, bla KPC, etc.) were **NOT tested** — they appear in the introduction as background context only. Do NOT present carbapenemase testing as an objective or result.
+> **NOTE:** Carbapenemase genes (bla NDM, bla KPC, etc.) were **NOT tested**: they appear in the introduction as background context only. Do NOT present carbapenemase testing as an objective or result.
 
 ---
 
@@ -94,8 +94,8 @@ amina/
 
 ## Citation Rules (CRITICAL)
 
-1. **Only cite papers physically present in `Literatures/`** — never invent or assume a citation exists.
-2. **All citations from Proposal.docx are at LOW CONFIDENCE** — each must be verified before use.
+1. **Only cite papers physically present in `Literatures/`**: never invent or assume a citation exists.
+2. **All citations from Proposal.docx are at LOW CONFIDENCE**: each must be verified before use.
 3. **≥80% of all citations** must be from papers published **2015–2025** (clinical/microbiological field norm).
 4. All references formatted in **APA 7th Edition**.
 5. Before citing any paper, verify the entry exists in `docs/literature_index.json`.
@@ -105,7 +105,7 @@ amina/
 The full official guidelines document is available at:
 `docs/ABU SPGS-guidelines-on-project,-thesis-and-dissertation-writing.pdf`
 
-Consult this PDF whenever there is uncertainty about formatting, structure, or prescribed wording. It is the authoritative source — it supersedes any formatting guidance in this file if they conflict.
+Consult this PDF whenever there is uncertainty about formatting, structure, or prescribed wording. It is the authoritative source; it supersedes any formatting guidance in this file if they conflict.
 
 ---
 
@@ -144,7 +144,7 @@ Consult this PDF whenever there is uncertainty about formatting, structure, or p
 
 ## Phase Workflow
 
-Work **sequentially** — each phase depends on outputs from the previous.
+Work **sequentially**: each phase depends on outputs from the previous.
 
 | Phase | Description | Key Output |
 |-------|-------------|------------|
@@ -165,9 +165,10 @@ Work **sequentially** — each phase depends on outputs from the previous.
 
 - **Never invent citations.** If a paper is not in `Literatures/`, do not cite it.
 - **Never skip phases.** Each phase builds on prior outputs.
-- **Chapters 3 and 4 are written in PAST TENSE** — the lab work is complete.
+- **Chapters 3 and 4 are written in PAST TENSE**: the lab work is complete.
 - **Carbapenemase genes are background only.** Do NOT list as objective or result.
 - **All statistical claims** must reference actual data from `Result.docx` or `chi_square_analysis.py` output.
-- **Target word counts are minimums** — do not produce thin chapters.
-- **Write in academic register** — formal, third-person.
+- **Target word counts are minimums**: do not produce thin chapters.
+- **Write in academic register**: formal, third-person.
 - When writing chapter content, always check the corresponding `phase_N_*.md` file for the full task list before starting.
+- **Never use the em dash character (—) in any generated content.** Use commas, colons, semicolons, or parentheses instead. Em dash usage is a recognised AI writing signal that causes content to be flagged as machine-generated.

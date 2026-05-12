@@ -47,7 +47,7 @@ Fair, R. J., & Tor, Y. (2014). Antibiotics and bacterial resistance in the 21st 
 
 Falgenhauer, L., Imirzalioglu, C., Oppong, K., Akenten, C. W., Hogan, B., Krumkamp, R., Poppert, S., Levermann, V., Schwengers, O., Sarpong, N., Owusu-Dabo, E., May, J., & Eibach, D. (2019). Detection and characterization of ESBL-producing *Escherichia coli* from humans and poultry in Ghana. *Frontiers in Microbiology, 9*, 3358. https://doi.org/10.3389/fmicb.2018.03358 ✓
 
-Feng, Y., Zhang, Z., Nie, T., & Schwarz, S. (2025). Regional antimicrobial resistance gene flow among the One Health sectors. *The Lancet Regional Health — Western Pacific*. https://doi.org/10.1016/j.lanwpc.2025.101200 ✓ *(APA details flagged for confirmation — DOI is indicative; verify before submission)*
+Feng, Y., Zhang, Z., Nie, T., & Schwarz, S. (2025). Regional antimicrobial resistance gene flow among the One Health sectors. *The Lancet Regional Health — Western Pacific*. https://doi.org/10.1016/j.lanwpc.2025.101200 ✓ *(APA details flagged for confirmation, DOI is indicative; verify before submission)*
 
 Fonseca, É. L., Freitas, F. D. S., Vieira, V. V., & Vicente, A. C. P. (2005). Detection of class 1 integrons and sequencing analysis of resistance gene cassettes in clinical isolates of bacteria. *FEMS Immunology and Medical Microbiology, 44*(3), 303–308. https://doi.org/10.1016/j.femsim.2005.02.005 ✓
 
@@ -101,7 +101,7 @@ Mupfunya, C. R., Qekwana, D. N., & Naidoo, V. (2020). Antimicrobial use practice
 
 Murray, C. J. L., Ikuta, K. S., Sharara, F., Swetschinski, L., Robles Aguilar, G., Gray, A., Han, C., Bisignano, C., Rao, P., Wool, E., Johnson, S. C., Browne, A. J., Chipeta, M. G., Fell, F., Hackett, S., Haines-Woodhouse, G., Kashef Hamadani, B. H., Kumaran, E. A. P., McManigal, B., … Naghavi, M. (2022). Global burden of bacterial antimicrobial resistance in 2019: A systematic analysis. *The Lancet, 399*(10325), 629–655. https://doi.org/10.1016/S0140-6736(21)02724-0 ✓
 
-Napit, R., Bhatt, L. R., Bhandari, P., & Adhikari, B. (2025). Metagenomic analysis of human, animal, and environmental samples identifies shared antimicrobial resistance gene pools. *One Health, 20*, 100942. ✓ *(APA details flagged for confirmation — DOI and volume pending verification)*
+Napit, R., Bhatt, L. R., Bhandari, P., & Adhikari, B. (2025). Metagenomic analysis of human, animal, and environmental samples identifies shared antimicrobial resistance gene pools. *One Health, 20*, 100942. ✓ *(APA details flagged for confirmation, DOI and volume pending verification)*
 
 Ngogang, M. P., Deschamps, N., Ngogang, M. F., Kamgue, G. A., & Tieche, A. F. (2021). Microbial contamination of chicken litter manure and antimicrobial resistance threat in an urban area setting in Cameroon. *Antibiotics, 10*(1), 20. https://doi.org/10.3390/antibiotics10010020 ✓
 
@@ -141,7 +141,7 @@ Virtanen, P., Gommers, R., Oliphant, T. E., Haberland, M., Reddy, T., Cournapeau
 
 Wang, F., Fu, Y.-H., Sheng, H.-J., Topp, E., Jiang, X., Zhu, Y.-G., & Tiedje, J. M. (2021). Antibiotic resistance in the soil ecosystem: a One Health perspective. *Current Opinion in Environmental Science & Health, 20*, 100230. https://doi.org/10.1016/j.coesh.2021.100230 ✓
 
-Wang, Y., Chen, Z., Yin, Z., & Li, J. (2023). Cooperative antibiotic resistance facilitates horizontal gene transfer of integron-borne resistance genes. *Nature Communications, 14*, 7839. https://doi.org/10.1038/s41467-023-42956-0 ✓ *(DOI flagged for confirmation — verify exact article against `Wang2023_Cooperative antibiotic resistance facilitates horizontal gen.pdf`)*
+Wang, Y., Chen, Z., Yin, Z., & Li, J. (2023). Cooperative antibiotic resistance facilitates horizontal gene transfer of integron-borne resistance genes. *Nature Communications, 14*, 7839. https://doi.org/10.1038/s41467-023-42956-0 ✓ *(DOI flagged for confirmation , verify exact article against `Wang2023_Cooperative antibiotic resistance facilitates horizontal gen.pdf`)*
 
 Wu, H., Xia, S., Bu, F., Qi, J., Liu, Y., & Xu, H. (2015). Identification of integrons and phylogenetic groups of drug-resistant *Escherichia coli* from broiler carcasses in China. *International Journal of Food Microbiology, 211*, 51–56. https://doi.org/10.1016/j.ijfoodmicro.2015.07.011 ✓
 
@@ -204,7 +204,7 @@ Yin, Y., Gu, J., Wang, X., Song, W., Zhang, K., Sun, W., Zhang, X., Zhang, Y., &
 |------|-------------|----------|--------|
 | Initial denaturation | 94°C | 3 min | 1 |
 | Denaturation | 94°C | 1 min | 40 |
-| Annealing — 16S rRNA / integrons | 55°C / 49°C | 30 sec | 40 |
+| Annealing: 16S rRNA / integrons | 55°C / 49°C | 30 sec | 40 |
 | Extension | 72°C | 1 min 30 sec | 40 |
 | Final extension | 72°C | 10 min | 1 |
 | Hold | 4°C | ∞ | — |
@@ -213,7 +213,7 @@ Yin, Y., Gu, J., Wang, X., Song, W., Zhang, K., Sun, W., Zhang, X., Zhang, Y., &
 
 ### APPENDIX C: Sample Collection Data Form
 
-**Field Sample Record — Poultry Manure Vendor Study, Zaria Metropolis**
+**Field Sample Record: Poultry Manure Vendor Study, Zaria Metropolis**
 
 *(One form completed per sample. Original forms to be retained in the study record)*
 
@@ -244,7 +244,7 @@ SAMPLE CHARACTERISTICS
 
 VENDOR INFORMATION
   Vendor Gender:     ☐ Male  ☐ Female
-  Vendor Consent:    ☐ Yes  ☐ No  (If No — exclude sample)
+  Vendor Consent:    ☐ Yes  ☐ No  (If No, exclude sample)
   Source Farm (if disclosed): _______________
 
 TRANSPORT
@@ -253,8 +253,8 @@ TRANSPORT
   Interval (collection→lab):   _______ hours
 
 INCLUSION/EXCLUSION CONFIRMATION
-  ☐ Sample meets all inclusion criteria — INCLUDE
-  ☐ Sample excluded — Reason: _______________
+  ☐ Sample meets all inclusion criteria: INCLUDE
+  ☐ Sample excluded, Reason: _______________
 
 Collector Signature: ___________________________  Date: _______________
 ─────────────────────────────────────────────────────────────────────────────
@@ -264,9 +264,9 @@ Collector Signature: ___________________________  Date: _______________
 
 ### APPENDIX D: Additional Gel Images
 
-*(Insert any additional agarose gel images that are not included in Chapter 4 — e.g., repeat gels, control-lane documentation, or gels from preliminary isolation runs. Label each image with lane contents, amplicon sizes, and plate designation.)*
+*(Insert any additional agarose gel images that are not included in Chapter 4, e.g., repeat gels, control-lane documentation, or gels from preliminary isolation runs. Label each image with lane contents, amplicon sizes, and plate designation.)*
 
-> **[Placeholder — insert additional gel images if available from `Results/gel_images/`]**
+> **[Placeholder: insert additional gel images if available from `Results/gel_images/`]**
 
 ---
 
@@ -274,11 +274,11 @@ Collector Signature: ___________________________  Date: _______________
 
 *(Insert scanned copy of the ethical clearance approval letter from the ABU Zaria Health Research Ethics Committee or the relevant departmental ethics authority, if obtained. If ethical clearance was granted by the Faculty of Veterinary Medicine Ethics Committee, include the reference number and date of approval.)*
 
-> **[Placeholder — Amina to insert ethical clearance documentation before final submission]**
+> **[Placeholder: Amina to insert ethical clearance documentation before final submission]**
 
 ---
 
-### APPENDIX F: Python Statistical Output — Chi-Square Analysis
+### APPENDIX F: Python Statistical Output, Chi-Square Analysis
 
 The following output was generated by `chi_square_analysis.py` (Python 3.11, SciPy 1.x) for the three statistical tests reported in Chapter 4. The complete script is available in the project directory.
 

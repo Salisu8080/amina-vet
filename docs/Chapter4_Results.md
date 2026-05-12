@@ -4,7 +4,7 @@
 
 > **Tense note:** This entire chapter is written in the past tense. Results are presented objectively; interpretation is reserved for Chapter 5.
 >
-> **Statistical note:** All chi-square tests were performed using Python SciPy (chi2_contingency). Because minimum expected cell frequencies were <5 in all three contingency tables — a consequence of the small number of *E. coli* isolates per vendor location — the chi-square values are reported with the caution that they should be interpreted accordingly. Fisher's Exact Test applies strictly to 2×2 tables and could not be applied to the 2×8 tables used here.
+> **Statistical note:** All chi-square tests were performed using Python SciPy (chi2_contingency). Because minimum expected cell frequencies were <5 in all three contingency tables, a consequence of the small number of *E. coli* isolates per vendor location, the chi-square values are reported with the caution that they should be interpreted accordingly. Fisher's Exact Test applies strictly to 2×2 tables and could not be applied to the 2×8 tables used here.
 >
 > **Plate captions:** Plate 4.1 (EMB colonies), Plate 4.2 (16S rRNA gel), and Plate 4.3 (integron gel) are referenced below. Insert actual gel images from `Results/gel_images/` with accurate lane descriptions before final typesetting.
 
@@ -12,7 +12,7 @@
 
 ### 4.1 Distribution of *Escherichia coli* Isolates from Poultry Manure Samples
 
-A total of 152 poultry manure samples were collected from eight commercial poultry manure vendor locations across Zaria Metropolis during the study period. Of the 152 samples cultured on Eosin Methylene Blue (EMB) agar, 88 (57.89%) yielded colonies with the characteristic raised, moist morphology and metallic green sheen indicative of presumptive *Escherichia coli* (Plate 4.1). Following Gram staining and standard biochemical confirmatory tests — comprising Triple Sugar Iron, Simmons Citrate, Urease, Sulfate-Indole-Motility, and Methyl Red–Voges Proskauer reactions — 37 of the 152 samples (24.34%) were biochemically confirmed as *E. coli*. The remaining 51 presumptive isolates were excluded following biochemical test results inconsistent with the characteristic *E. coli* profile.
+A total of 152 poultry manure samples were collected from eight commercial poultry manure vendor locations across Zaria Metropolis during the study period. Of the 152 samples cultured on Eosin Methylene Blue (EMB) agar, 88 (57.89%) yielded colonies with the characteristic raised, moist morphology and metallic green sheen indicative of presumptive *Escherichia coli* (Plate 4.1). Following Gram staining and standard biochemical confirmatory tests, comprising Triple Sugar Iron, Simmons Citrate, Urease, Sulfate-Indole-Motility, and Methyl Red–Voges Proskauer reactions, 37 of the 152 samples (24.34%) were biochemically confirmed as *E. coli*. The remaining 51 presumptive isolates were excluded following biochemical test results inconsistent with the characteristic *E. coli* profile.
 
 The prevalence of confirmed *E. coli* varied across the eight vendor locations, ranging from 16.6% at Zabi, Samaru, and Basawa to 31.4% at Dan Magaji (Table 4.1). Dan Magaji and Dembo, which also had the largest sample sizes (35 each), yielded the highest absolute numbers of confirmed *E. coli* isolates (11 and 8, respectively). Chi-square analysis of the association between vendor location and *E. coli* prevalence yielded a non-significant result (χ² = 2.240, df = 7, P = 0.945), indicating that there was no statistically significant difference in the proportion of *E. coli*-positive samples across the eight vendor locations. Due to minimum expected cell frequencies below 5 in the contingency table, this result should be interpreted with caution.
 
@@ -50,7 +50,7 @@ All 37 biochemically confirmed *E. coli* isolates were subjected to PCR amplific
 
 The antimicrobial susceptibility profiles of all 37 PCR-confirmed *E. coli* isolates were determined by the Kirby-Bauer disk diffusion method using a panel of ten antibiotic disks in accordance with CLSI (2024) guidelines. The complete susceptibility profile is presented in Table 4.2.
 
-All 37 isolates (100%) were susceptible to meropenem — the last-resort carbapenem antibiotic — and all 37 (100%) were resistant to azithromycin. Resistance was also very high for trimethoprim-sulfamethoxazole (SXT; 36/37; 97.29%), chloramphenicol (C; 36/37; 97.29%), and ciprofloxacin (CIP; 36/37; 97.29%), followed by nalidixic acid (NA; 35/37; 94.59%), gentamicin (CN; 34/37; 91.89%), and tetracycline (TE; 33/37; 89.18%). Ceftriaxone resistance was detected in 25 of 37 isolates (67.56%), with a further 5 isolates (13.51%) showing intermediate susceptibility. Amoxicillin-clavulanic acid (AMC) had the lowest resistance rate, with only 1 of 37 isolates (2.70%) classified as resistant; 15 isolates (40.54%) were classified as intermediate and 21 (56.75%) were susceptible.
+All 37 isolates (100%) were susceptible to meropenem, the last-resort carbapenem antibiotic, and all 37 (100%) were resistant to azithromycin. Resistance was also very high for trimethoprim-sulfamethoxazole (SXT; 36/37; 97.29%), chloramphenicol (C; 36/37; 97.29%), and ciprofloxacin (CIP; 36/37; 97.29%), followed by nalidixic acid (NA; 35/37; 94.59%), gentamicin (CN; 34/37; 91.89%), and tetracycline (TE; 33/37; 89.18%). Ceftriaxone resistance was detected in 25 of 37 isolates (67.56%), with a further 5 isolates (13.51%) showing intermediate susceptibility. Amoxicillin-clavulanic acid (AMC) had the lowest resistance rate, with only 1 of 37 isolates (2.70%) classified as resistant; 15 isolates (40.54%) were classified as intermediate and 21 (56.75%) were susceptible.
 
 **Table 4.2: Antibiotic susceptibility profile of *Escherichia coli* isolates from poultry manure samples in Zaria Metropolis (n = 37)**
 
@@ -73,9 +73,9 @@ All 37 isolates (100%) were susceptible to meropenem — the last-resort carbape
 
 A total of ten distinct antimicrobial resistance (AMR) patterns were identified among the 37 confirmed *E. coli* isolates (Table 4.3). All isolates were resistant to a minimum of three antibiotic classes, and no isolate was susceptible to all antibiotics tested.
 
-The most prevalent resistance pattern — observed in 19 of the 37 isolates (51.35%) — comprised simultaneous resistance to eight antibiotics: ceftriaxone (CRO), tetracycline (TE), gentamicin (CN), trimethoprim-sulfamethoxazole (SXT), chloramphenicol (C), azithromycin (AZM), ciprofloxacin (CIP), and nalidixic acid (NA). This 8-drug resistance pattern spanned five antibiotic classes (3rd-generation cephalosporin, tetracycline, aminoglycoside, folate inhibitor, phenicol, macrolide, and two quinolone agents), underscoring the breadth of multidrug resistance in the majority of isolates.
+The most prevalent resistance pattern, observed in 19 of the 37 isolates (51.35%), comprised simultaneous resistance to eight antibiotics: ceftriaxone (CRO), tetracycline (TE), gentamicin (CN), trimethoprim-sulfamethoxazole (SXT), chloramphenicol (C), azithromycin (AZM), ciprofloxacin (CIP), and nalidixic acid (NA). This 8-drug resistance pattern spanned five antibiotic classes (3rd-generation cephalosporin, tetracycline, aminoglycoside, folate inhibitor, phenicol, macrolide, and two quinolone agents), underscoring the breadth of multidrug resistance in the majority of isolates.
 
-The second most common pattern involved 7-drug resistance to TE, CN, SXT, C, AZM, CIP, and NA — detected in 9 isolates (24.32%). The remaining 9 isolates were distributed across eight further distinct patterns involving resistance to between 3 and 9 antibiotics. The only isolate resistant to 9 antibiotics (pattern 10) also demonstrated resistance to amoxicillin-clavulanic acid, which was otherwise the antibiotic with the lowest resistance rate. No isolate was resistant to meropenem across any pattern.
+The second most common pattern involved 7-drug resistance to TE, CN, SXT, C, AZM, CIP, and NA, detected in 9 isolates (24.32%). The remaining 9 isolates were distributed across eight further distinct patterns involving resistance to between 3 and 9 antibiotics. The only isolate resistant to 9 antibiotics (pattern 10) also demonstrated resistance to amoxicillin-clavulanic acid, which was otherwise the antibiotic with the lowest resistance rate. No isolate was resistant to meropenem across any pattern.
 
 **Table 4.3: Distinct antimicrobial resistance patterns of *Escherichia coli* isolates from poultry manure in Zaria Metropolis (n = 37)**
 
@@ -131,7 +131,7 @@ Class II integrons were detected in 28 of the 37 MDR *E. coli* isolates (75.6%).
 
 #### 4.6.3 Co-carriage of Class I and Class II Integrons
 
-Of the 37 MDR *E. coli* isolates, 27 (73.0%) were positive for both Class I and Class II integrons simultaneously — representing co-carriage of both integron classes within the same isolate. Nine isolates (24.3%) carried Class I integron only (Class I positive, Class II negative), and one isolate (2.7%) was negative for both integron classes (the single Dan Magaji isolate that was Class I negative was also Class II negative by default). No isolate was Class II integron-positive while Class I integron-negative.
+Of the 37 MDR *E. coli* isolates, 27 (73.0%) were positive for both Class I and Class II integrons simultaneously, representing co-carriage of both integron classes within the same isolate. Nine isolates (24.3%) carried Class I integron only (Class I positive, Class II negative), and one isolate (2.7%) was negative for both integron classes (the single Dan Magaji isolate that was Class I negative was also Class II negative by default). No isolate was Class II integron-positive while Class I integron-negative.
 
 **Table 4.5: Detection of Class I and Class II integrons among MDR *Escherichia coli* isolates by vendor location (n = 37)**
 
@@ -161,7 +161,7 @@ Of the 37 MDR *E. coli* isolates, 27 (73.0%) were positive for both Class I and 
 The key findings of this study are summarised as follows:
 
 1. Of 152 poultry manure samples from eight vendor locations in Zaria Metropolis, 37 (24.34%) yielded confirmed *E. coli* isolates on EMB agar, biochemical testing, and 16S rRNA PCR.
-2. All 37 confirmed *E. coli* isolates (100%) were multidrug resistant, with MAR indices ranging from 0.3 to 0.9 — all exceeding the 0.2 threshold for high-risk antibiotic exposure environments.
+2. All 37 confirmed *E. coli* isolates (100%) were multidrug resistant, with MAR indices ranging from 0.3 to 0.9, all exceeding the 0.2 threshold for high-risk antibiotic exposure environments.
 3. Ten distinct antimicrobial resistance patterns were identified; the predominant pattern (51.35% of isolates) involved simultaneous resistance to eight antibiotic classes.
 4. All isolates were susceptible to meropenem and resistant to azithromycin.
 5. Class I integrons were detected in 36 of 37 isolates (97.2%), and Class II integrons in 28 of 37 isolates (75.6%).
@@ -171,12 +171,12 @@ The key findings of this study are summarised as follows:
 
 ### References for Chapter 4
 
-*(Full reference list in Chapter 8 — References and Appendices)*
+*(Full reference list in Chapter 8: References and Appendices)*
 
 **In-text citations used in this chapter:**
 
-- CLSI (2024) ⚑ — standards document
-- Fonseca et al. (2005) — `Fonseca2005_intgr.pdf`
-- Goldstein et al. (2001) — `Goldstein2001.pdf`
-- Lane (1991) ⚑ — primer reference
-- Roe & Pillai (2003) — `Roe2003.pdf`
+- CLSI (2024) ⚑: standards document
+- Fonseca et al. (2005): `Fonseca2005_intgr.pdf`
+- Goldstein et al. (2001): `Goldstein2001.pdf`
+- Lane (1991) ⚑: primer reference
+- Roe & Pillai (2003): `Roe2003.pdf`
