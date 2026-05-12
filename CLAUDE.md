@@ -7,7 +7,7 @@
 **Institution:** Department of Veterinary Public Health and Preventive Medicine, Faculty of Veterinary Medicine, Ahmadu Bello University (ABU) Zaria
 **Degree:** Master of Science (MSc) in Veterinary Public Health
 **Supervisors:** Prof. Junaidu Kabir (Chairman) & Dr. U.U. Bashir (Member)
-**Guidelines:** ABU SPGS Guidelines on Dissertation Writing
+**Guidelines:** ABU Postgraduate College Guidelines on Dissertation Writing
 
 ---
 
@@ -100,7 +100,7 @@ amina/
 4. All references formatted in **APA 7th Edition**.
 5. Before citing any paper, verify the entry exists in `docs/literature_index.json`.
 
-## ABU SPGS Guidelines
+## ABU Postgraduate College Guidelines
 
 The full official guidelines document is available at:
 `docs/ABU SPGS-guidelines-on-project,-thesis-and-dissertation-writing.pdf`
@@ -121,7 +121,7 @@ Consult this PDF whenever there is uncertainty about formatting, structure, or p
 
 ---
 
-## ABU SPGS Formatting Rules
+## ABU Postgraduate College Formatting Rules
 
 | Element | Specification |
 |---------|---------------|

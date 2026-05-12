@@ -71,7 +71,7 @@ Balarabe, Amina Abdullahi
 [B.V.Sc. / DVM, ABU, Year — confirm exact degree and year with Dept.]
 P24VTVH8002
 
-A DISSERTATION SUBMITTED TO THE SCHOOL OF POSTGRADUATE STUDIES, 
+A DISSERTATION SUBMITTED TO THE POSTGRADUATE COLLEGE, 
 AHMADU BELLO UNIVERSITY IN PARTIAL FULFILMENT OF THE REQUIREMENTS 
 FOR THE AWARD OF MASTER OF SCIENCE (MSc) IN VETERINARY PUBLIC HEALTH
 
@@ -104,7 +104,7 @@ AHMADU BELLO UNIVERSITY, ZARIA, NIGERIA.
 | Chairman, Supervisory Committee | Prof. Junaidu Kabir | _____________ | _______ |
 | Member, Supervisory Committee | Dr. U.U. Bashir | _____________ | _______ |
 | Head of Department | [HoD Name — confirm with Dept] | _____________ | _______ |
-| Dean, School of Postgraduate Studies | Prof. Sani A. Abdullahi | _____________ | _______ |
+| Provost, Postgraduate College | Prof. O. O. Okubanjo | _____________ | _______ |
 
 ---
 
@@ -120,7 +120,7 @@ AHMADU BELLO UNIVERSITY, ZARIA, NIGERIA.
 Structure:
 1. Praise to Almighty Allah
 2. Gratitude to supervisory committee (Prof. Junaidu Kabir and Dr. U.U. Bashir — name them specifically)
-3. Acknowledge the Department and ABU SPGS
+3. Acknowledge the Department and ABU Postgraduate College
 4. Thank lab staff (Bacterial Zoonoses Laboratory, Dept. of Vet. Public Health)
 5. Family acknowledgement
 
